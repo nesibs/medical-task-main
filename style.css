@@ -65,14 +65,16 @@ header {
    
   position: relative;
   color: white;
+  height: 500px;
 }
 
 #carouselExampleDark {
   /* height: 50vh !important; */
+  height: 500px;
 }
 
 .active{
-    scale: 1.2!important;
+    scale: 1.05!important;
     transition: 0.5s;
 }
 .inner-text {
@@ -117,7 +119,7 @@ header {
 }
 
 #form{
-    height: 70vh;
+  padding: 30px 10px;
 }
 
 form{
@@ -141,11 +143,17 @@ textarea{
         width: 400px !important;
     }
     .inner-text{
-      width: 100%;
+      width: 100%!important;
+      padding: 0 20px;
     }
     
     .carousel-control-prev-icon, .carousel-control-next-icon{
       display: none;
     }
-    
+
+    form{
+      width: 100%;
+    }
+
+
 }
